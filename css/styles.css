@@ -5,3 +5,62 @@
 /* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
 
+body {
+    background-image: url(../img/texture-light.png);
+    background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.content-box { /* class selector */
+	width: 75%; /* when it changes, the width changes */
+	background-color: #FFF;
+	margin: 0 auto; /* take horizontal center the box */
+	box-shadow: 2px 2px 6px #555; /* 6. how much it blurred*/
+}
+
+.name {
+	font-size: 36px;
+	color: #116189;
+	font-family: Boogaloo;
+}
+
+.motto {
+	display: inline-block;
+	font-size: 120%;
+	font-style: italic;
+}
+
+nav li {
+	display: inline-block;
+}
+
+.logo{
+	float: left;
+}
+
+nav ul {  /* navigation bar */
+	background-color: #D74710;
+	width: 80%;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav a {
+	display: inline-block;
+	padding: 19px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: #FF9D45;
+	border-radius: 5px;
+}
