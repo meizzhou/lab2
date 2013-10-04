@@ -93,6 +93,10 @@ nav a:visited {
 	font-size: 80%;
 	font-style: italic;
 }
+
+.email{
+	text-decoration: none;
+}
 nav a:hover {
 	background-color: #FF9D45;
 	border-radius: 5px;
