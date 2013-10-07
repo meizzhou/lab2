@@ -18,6 +18,21 @@ p{
 	font-family: 'Open Sans', sans-serif;
 	margin: 8px;
 }
+
+h1{
+	margin-left: 13px;
+	font-size: 25px;
+	color: #116189;
+	font-weight: bold;
+}
+
+h2{
+	margin-left: 13px;
+	font-size: 18px;
+	color: #116189;
+	font-weight: bold;	
+}
+
 .content-box { /* class selector */
 	width: 80%; /* when it changes, the width changes */
 	background-color: #FFF;
@@ -102,4 +117,9 @@ nav a:hover {
 	background-color: #FF9D45;
 	border-radius: 5px;
 }
+
+.person{
+	float: left;
+}
+
 
