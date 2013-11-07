@@ -1,96 +1,57 @@
 /* Google web fonts 'Open Sans' (italic and normal) and 'Boogaloo' */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Boogaloo);
-
-/* reset CSS file to reset browser default styling to a consistent starting point */
 @import url(reset.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+
+.header {
+	display: block;
+	width: 100%;
+	background: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ba8748;
+}
+
+.header-inner {
+	width: 100%;
+}
 
 body {
-    background-image: url(../img/texture-light.png);
-    background-repeat: repeat;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    padding: 10px;
+	font-size: 100%;
+	font: inherit;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
 }
 
-p{
-	padding: 5px;
-	margin: 8px;
+.div {
+	display: block;
 }
 
-h1{
-	margin-left: 13px;
-	font-size: 25px;
-	color: #116189;
-	font-weight: bold;
+.unit4 {
+	width: 510px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
-h2{
-	font-size: 18px;
-	color: #116189;
-	font-weight: bold;	
+.topper {
+	height: 152px;
+	letter-spacing: 0.5em;
 }
 
-h3{
-	margin-bottom: 25px;
-}
-
-.content-box { /* class selector */
-	width: 80%; /* when it changes, the width changes */
-	background-color: #FFF;
-	margin: 0 auto; /* take horizontal center the box */
-	box-shadow: 2px 2px 6px #555; /* 6. how much it blurred*/
-}
-
-.name {
-	font-size: 36px;
-	color: #116189;
-	font-family: Boogaloo;
-}
-
-.motto {
-	font-size: 120%;
-	font-style: italic;
-	margin-bottom: 20px;
-}
-
-.ship{
-	margin-right: 10px;
-	float: right;
-}
-
-
-.logo{
-	float: left;
-	margin-right: 20px;
-	padding-left: 10px;
-	padding-top: 15px;
-}
-
-.factory{
-	float: left; 
-	margin-left: 12px;
-	margin-right: 10px;
-}
-
-nav ul {
-	background-color: #D74710;
-	width: 97%;
-	border-radius: 5px;
-	margin: 0 auto;
-	margin-bottom: 15px;
-}
-
-nav li {
-	display: inline-block;
+p.title {
+	margin-top: 40px;
 }
 
 nav a {
 	display: inline-block;
-	padding: 10px;
-	color: #FFF;
-	font-weight: bold;
-	font-size: 110%;
+	padding-right: 45px;
+	padding-left: 65px;
+	color: #ba8748;
+	letter-spacing: 0.2em;
+}
+
+nav li {
+	display: inline-block;
 }
 
 nav a:link,
@@ -98,30 +59,34 @@ nav a:visited {
 	text-decoration: none;
 }
 
-.footer{
-	margin-top: 40px;
-	border-width:1px;	
-	border-top-style:solid;
-	border-color: #DEDEDE;
-	font-size: 80%;
-	font-style: italic;
-	padding-top: 10px;
-}
-.last{
-	font-size: 80%;
-	font-style: italic;
+img {
+	position: relative;
+	height: 390px;
+	width: 1280px;
+	max-width: 100%;
+	left: 0px; 
+	display: inline;
+
 }
 
-.email{
+
+.info {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: 300;
+	font-size: 80%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.map{
 	text-decoration: none;
-}
-nav a:hover {
-	background-color: #FF9D45;
-	border-radius: 5px;
+	color: #ba8748;
+	font-weight: 100;
 }
 
-.person{
-	float: left;
+.title {
+	font-size: 110%;
 }
+
 
 
